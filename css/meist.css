@@ -1,0 +1,70 @@
+body{
+    background-color: palegoldenrod;
+}
+
+@font-face {
+	font-family: Qwerty Ability;
+	src: url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+}
+
+.menüü {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#logo{
+    width: 200px;
+    height: 70px;
+    padding-right: 30px;
+}
+
+.link {
+    color: black;
+    padding-right: 30px;
+    text-decoration: none
+}
+
+.sisu{
+    padding-top:  20px;
+    padding-left: 60px;
+    padding-right: 100px;
+    overflow: auto;
+}
+
+.pealkiri {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: orange;
+    display: flex;
+    padding-top: 0px;
+    float: left;
+    margin-right: 30%;
+}
+
+.tekst{
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    float: left;
+    width: 650px;
+    margin-right: 20px;
+}
+
+#pilt{
+    float: right;
+    padding-top: 80px;
+}
+
+#asukoht{
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    margin-top: 80px;
+    margin-left: 270px;
+}
+
+#map {
+    margin-left: 300px;
+    height: 250px;
+    width: 500px;
+}
