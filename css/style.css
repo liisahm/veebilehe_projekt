@@ -1,20 +1,30 @@
 style.css
 
 
+		/* stylt the header */
+	header {
+		background-color: #666;
+		padding: 30px;
+		text-align: center;
+		font-size: 35px;
+		color: white;
+	}
+
+
 	body {
   		background-color: lightblue;
 	}
 
 	h1 {
-  		color: red;
-  		text-align: center;
+  		color: darkblue;
+  		text-align: left;
 	}
 
 	p {
-		text-align: center;
+		text-align: left;
 	}
 
-		/*navigation styling */
+		/*style navigation*/
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -22,7 +32,6 @@ style.css
 		overflow: hidden;
 		background-color: #f3f3f3;
 	}
-
 
 	li {
   		float: left;
@@ -39,3 +48,22 @@ style.css
 	li a:hover {
   		background-color: red;
 	}	
+
+	img {
+		width: 16%;
+		height:auto;
+		margin-top: 25px;
+  		margin-bottom: 25px;
+  		margin-right: 25px;
+  		margin-left: 25px;
+	}
+
+		/* style the footer */
+	footer {
+		background-color: black;
+		padding: 5px;
+		width: 100%
+		text-align: center;
+		color: white;
+	}
+
