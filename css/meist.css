@@ -1,17 +1,6 @@
-body{
-    background-color: palegoldenrod;
-}
-
 @font-face {
 	font-family: Qwerty Ability;
 	src: url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-}
-
-.menüü {
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
 }
 
 #logo{

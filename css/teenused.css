@@ -1,0 +1,113 @@
+#pealkiri{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: beige;
+}
+
+.esimene{
+    padding-left: 80px;
+    font-size: large;
+    overflow: auto;
+}
+
+.pilt{
+    display: flex;
+    float: left;
+    margin-left: 5%;
+}
+
+.tekst{
+    float: left;
+    padding-left: 50px;
+    padding-top: 40px;
+    width: 400px;
+}
+
+.teine{
+    padding-left: 80px;
+    font-size: large;
+    overflow: auto;
+}
+
+.tekst_2{
+    padding-left: 50px;
+    padding-top: 40px;
+    float: left;
+    width: 400px;
+    margin-left: 5%;
+}
+
+.pilt_2{
+    float: left;
+    padding-left: 50px;
+}
+
+.hinnad{
+    background-color: rgb(160, 217, 250);
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#hinnad_suur{
+    padding-top: 10px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: beige;
+}
+
+.alapealkiri{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sees{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.kast{
+    background-color: beige;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.hind{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aeg{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#massaaž1{
+    margin-left: 24%;
+}
+
+#massaaž2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#füsio1{
+    margin-left: 33%;
+    margin-right: 30px;
+}
+
+.kast2{
+    background-color: beige;
+    width: 200px;
+    margin-left: 42%;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
