@@ -5,17 +5,16 @@
 }
 
 header {
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pildid/esileht.jpg);
-	height: 85vh;
-	background-size: cover;
-	background-position: center;
+	overflow: hidden;
+	padding: 20px 10px;
+	line-height: 20px;
 }
 
 /*navigation*/
 ul {
 	float: right;
 	list-style-type: none;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 ul li{
@@ -25,7 +24,7 @@ ul li{
 
 ul li a{
 	display: block;
-	color: #ffffff;
+	color: #000;
 	text-align: center;
 	text-decoration: none;
 	border: 1px solid transparent;
@@ -34,19 +33,15 @@ ul li a{
 }
 
 ul li a:hover{
-	background-color: #ffffff;
-	color: #000
+	background-color: #000;
+	color: #ffffff
 }	
 
 ul li.active a{
-	background-color: grey;
-	/*color: #000*/	
+	background-color: lightgrey;
 }
 
 .logo img{
-	/* LOGO TAUST POOLELI
-	background-image: linear-gradient(180deg, #8b8e80 30%, #e0f29b 100%);*/
-	background-blend-mode: lighten;
 	float:left;
 	width: 200px;
 	height: auto;
@@ -56,6 +51,10 @@ ul li.active a{
 .main{
 	max-width: 1200px;
 	margin: auto;
+}
+
+.contactline{
+	float: left;
 }
 
 .title{
@@ -68,6 +67,7 @@ ul li.active a{
 .title h1{
 	color: #fff;
 	font-size: 50px;
+	line-height: normal;
 }
 
 .button {
@@ -93,12 +93,20 @@ ul li.active a{
 	color: #000
 }
 
+section {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pildid/esileht.jpg);
+	height: 85vh;
+	background-size: cover;
+	background-position: center;
+}
+
 
 footer {
 	background-color: black;
-	padding: 5px;
-	width: 100%
+	padding: 20px 10px;
+	width: 100%;
 	text-align: center;
 	color: white;
+	line-height: 20px;
 }
 
