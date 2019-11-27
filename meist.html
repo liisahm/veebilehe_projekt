@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
     <head>
         <title>Meist</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/meist.css">
+        <link rel="stylesheet" href="css/ühine.css">
         <!-- icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="javascript/meist.js"></script>
@@ -18,9 +19,9 @@
         <header>
             <!-- icons from fontawesome.com -->
             <div class ="navbar">
-                <a href="#link1"><i class="fa fa-map-marker"></i> Veeriku spordikeskus, Näituse 33 II korrus</a>
-                <a href="#"><i class="fa fa-fw fa-phone"></i> 56645618</a>
-                <a href="#"><i class="fa fa-fw fa-envelope"></i> info@fysiocentrum.com</a>
+                <a href="#andmed"><i class="fa fa-map-marker"></i> Veeriku spordikeskus, Näituse 33 II korrus</a>
+                <a href="#andmed"><i class="fa fa-fw fa-phone"></i> 56645618</a>
+                <a href="#andmed"><i class="fa fa-fw fa-envelope"></i> info@fysiocentrum.com</a>
                 <a><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
                 <a><i class="fa fa-instagram" style="font-size:24px"></i></a>
             </div>
@@ -31,21 +32,17 @@
 
             <nav class="nav">
                 <ul>
-                    <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i>Esileht</a></li>
+                    <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Esileht</a></li>
                     <li><a href="teenused.html">Teenused</a></li>
                     <li><a href="#">Treeningud</a></li>
-                    <li><a href="meist.html">Meist</a></li>
+                    <li class="active"><a href="meist.html">Meist</a></li>
                 </ul>
             </nav>
         </header>
 
+        <h1 class="pealkiri">MEIST</h1>
+
         <div class="sisu">
-
-            <div class="pealkiri">
-                <h1>Meist</h1>
-            </div>
-
-            <img src="./pildid/meist.jpg" alt="fysiocentrum" id="pilt">
             
             <div class="tekst">
                 <p>Oleme Tartu Ülikoolist võrsunud teadusmahukas ettevõte, kus tegutsevad spordi tausta ja hingega füsioterapeudid ja teised spetsialistid.</p>
@@ -53,14 +50,77 @@
                 <p>Pakume füsioteraapia, massaaži, nõelravi, teipimist ja sportlaste võimekuse testimist. Meie juures toimuvad ka rühmatreeningud füsioterapeutide juhendamisel ehk füsiotreeningud.</p>
             </div>
 
+            <img src="./pildid/meist.jpg" alt="fysiocentrum" id="pilt">
+
         </div>
 
-        <p id=asukoht>
-            Veeriku spordikeskus, Näituse 33 II korrus (lahtiolek kokkuleppel)
-        </p>
-
-        <div id="map">
+        <h1 class="pealkiri">MEIE SPETSIALISTID</h1>
+        
+        <div id="spetsialistid">
+            <div class="inimene">
+                <p class="inim_nimi">Mati Arend</p>
+                <img src="./pildid/arend.jpg" alt="Mati Arend" class="inim_pilt">
+            </div>
+            <div class="inimene">
+                <p class="inim_nimi">Liisa Veerla</p>
+                <img src="./pildid/veerla.jpg" alt="Liisa Veerla" class="inim_pilt">
+            </div>
+            <div class="inimene">
+                <p class="inim_nimi">Rauno Kuusemets</p>
+                <img src="./pildid/kuusemets.png" alt="Rauno Kuusemets" class="inim_pilt">
+            </div>
+            <div class="inimene">
+                <p class="inim_nimi">Aira Ferschel</p>
+                <img src="./pildid/ferschel.jpg" alt="Aira Ferschel" class="inim_pilt">
+            </div>
+            <div class="inimene">
+                <p class="inim_nimi">Margus Parts</p>
+                <img src="./pildid/parts.jpg" alt="Margus Parts" class="inim_pilt">
+            </div>
+            <div class="inimene">
+                <p class="inim_nimi">Ott Meerits</p>
+                <img src="./pildid/meerits.jpg" alt="Ott Meerits" class="inim_pilt">
+            </div>
+            <div class="inimene" id="pikk">
+                <p class="inim_nimi">Maarja Kalev</p>
+                <img src="./pildid/kalev.jpg" alt="Maarja Kalev"  class="inim_pilt">
+            </div>
         </div>
+
+        <h1 class="pealkiri">KONTAKTID</h1>
+
+        <div id="andmed">
+            <div id="map"></div>
+            <div class="parempoolne">
+                <div class="üleval">
+                    <div class="ikoonid">
+                            <img src="./pildid/asukoht.png" alt="asukoht" width="50" height="50">
+                            <img src="./pildid/telefon.png" alt="telefon" width="50" height="50" id="keskmine_pilt">
+                            <img src="./pildid/mail.jpg" alt="e-mail" width="50" height="50">
+                    </div>
+
+                    <div class="info">
+                        <p>
+                            Veeriku spordikeskus, Näituse 33 II korrus (lahtiolek kokkuleppel)
+                        </p>
+                        <p id="keskmine_tekst">
+                            +372 5664 5618 Kui me ei saa vastata, tegeleme klientidega. Võtame teiega esimesel võimalusel ühendust.
+                        </p>
+                        <p>info@fysiocentrum.ee</p>
+                    </div>
+                </div>
+                <div class="all">
+                    <a href="https://www.facebook.com/FysioCentrum/" target="_blank">
+                        <img src="./pildid/fb.png" alt="facebook" width="150" height="50" id="fb"></a>
+                    <a href="https://www.instagram.com/fysio_centrum/" target="_blank">
+                        <img src="./pildid/ig.jpg" alt="instagram" width="120" height="80" id="ig"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Veeriku spordikeskus, Näituse 33 II korrus, Tartu 51014</p>
+        </footer>
 
     </body>
 </html>

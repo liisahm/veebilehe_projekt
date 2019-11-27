@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 
     <head>
         <title>Teenused</title>
@@ -10,15 +10,40 @@
         <link rel="stylesheet" href="css/teenused.css">
     	<!-- icon library -->
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="javascript/kõik.js"></script>
+        <style>
+                /* width */
+                ::-webkit-scrollbar {
+                    width: 20px;
+                }
+                ::-we
+                
+                /* Track */
+                ::-webkit-scrollbar-track {
+                  box-shadow: inset 0 0 5px rgb(128, 128, 128); 
+                  border-radius: 10px;
+                }
+                 
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                  background: rgb(85, 24, 197); 
+                  border-radius: 10px;
+                }
+                
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                  background: blue; 
+                }
+                </style>
     </head>
 
     <body>
         <header>
             <!-- icons from fontawesome.com -->
             <div class ="navbar">
-                <a href="#link1"><i class="fa fa-map-marker"></i> Veeriku spordikeskus, Näituse 33 II korrus</a>
-                <a href="#"><i class="fa fa-fw fa-phone"></i> 56645618</a>
-                <a href="#"><i class="fa fa-fw fa-envelope"></i> info@fysiocentrum.com</a>
+                <a href="meist.html#andmed"><i class="fa fa-map-marker"></i> Veeriku spordikeskus, Näituse 33 II korrus</a>
+                <a href="meist.html#andmed"><i class="fa fa-fw fa-phone"></i> 56645618</a>
+                <a href="meist.html#andmed"><i class="fa fa-fw fa-envelope"></i> info@fysiocentrum.com</a>
                 <a><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
                 <a><i class="fa fa-instagram" style="font-size:24px"></i></a>
             </div>
@@ -29,8 +54,8 @@
 
             <nav class="nav">
                 <ul>
-                    <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i>Esileht</a></li>
-                    <li><a href="teenused.html">Teenused</a></li>
+                    <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Esileht</a></li>
+                    <li class="active"><a href="teenused.html">Teenused</a></li>
                     <li><a href="#">Treeningud</a></li>
                     <li><a href="meist.html">Meist</a></li>
                 </ul>
@@ -42,7 +67,7 @@
         <div class="esimene">
 
             <div class="pilt">
-                <img src="./pildid/massaaž.jpg" alt="massaaž" width="500px" height="500px">
+                <img src="./pildid/massaaž.jpg" alt="massaaž" width="500" height="500">
             </div>
             
             <div class="tekst">
@@ -66,7 +91,7 @@
             </div>
 
             <div class="pilt_2">
-                <img src="./pildid/spordimassaaž.jpg" alt="spordimassaaž" width="500px" height="500px">
+                <img src="./pildid/spordimassaaž.jpg" alt="spordimassaaž" width="500" height="500">
             </div>
         
         </div>
@@ -74,7 +99,7 @@
         <div class="esimene">
 
             <div class="pilt">
-                <img src="./pildid/fysioteraapia.jpg" alt="füsioteraapia" width="500px" height="500px">
+                <img src="./pildid/fysioteraapia.jpg" alt="füsioteraapia" width="500" height="500">
             </div>
             
             <div class="tekst">
@@ -102,7 +127,7 @@
             </div>
 
             <div class="pilt_2">
-                <img src="./pildid/spordifysioteraapia.jpg" alt="spordifüsioteraapia" width="500px" height="400px">
+                <img src="./pildid/spordifysioteraapia.jpg" alt="spordifüsioteraapia" width="500" height="400">
             </div>
         
         </div>
@@ -110,7 +135,7 @@
         <div class="esimene">
 
             <div class="pilt">
-                <img src="./pildid/kinesio.jpg" alt="füsioteraapia" width="500px" height="400px">
+                <img src="./pildid/kinesio.jpg" alt="füsioteraapia" width="500" height="400">
             </div>
             
             <div class="tekst">
@@ -132,7 +157,7 @@
             </div>
 
             <div class="pilt_2">
-                <img src="./pildid/noelravi.jpg" alt="noelravi" width="500px" height="300px">
+                <img src="./pildid/noelravi.jpg" alt="noelravi" width="500" height="300">
             </div>
         
         </div>
@@ -140,7 +165,6 @@
         <div class="hinnad">
             <h2 id="hinnad_suur">HINNAD</h2>
 
-            
                 <h3 class="alapealkiri">Massaaž</h3>
                 <div class="sees">
                 <div class="kast" id="massaaž1">
@@ -186,11 +210,11 @@
             </div>
         </div>
 
-    <!--
+    
     <footer>
       <p>Veeriku spordikeskus, Näituse 33 II korrus, Tartu 51014</p>
     </footer>
-    -->
+
 
     </body>
 </html>

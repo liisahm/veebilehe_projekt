@@ -3,11 +3,11 @@
 	src: url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 }
 
-#logo{
-    width: 200px;
-    height: 70px;
-    padding-right: 30px;
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: large;
 }
+
 
 .link {
     color: black;
@@ -22,38 +22,108 @@
     overflow: auto;
 }
 
-.pealkiri {
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    color: orange;
-    display: flex;
-    padding-top: 0px;
-    float: left;
-    margin-right: 30%;
-}
-
 .tekst{
     font-family: 'Pacifico', cursive;
     font-size: large;
     float: left;
     width: 650px;
     margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
 }
 
 #pilt{
     float: right;
-    padding-top: 80px;
+    margin-bottom: 30px;
+    margin-right: 20px;
 }
 
-#asukoht{
-    font-family: 'Pacifico', cursive;
-    font-size: large;
+#andmed{
+    overflow: auto;
     margin-top: 80px;
-    margin-left: 270px;
+}
+
+#spetsialistid{
+    overflow: auto;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.inimene{
+    float: left;
+    width: 160px;
+}
+
+.inim_nimi{
+    margin-bottom: 20px;
+}
+
+.inim_pilt{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.inim_pilt:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:200px;
+    height:auto;
+    display:block;
+    z-index:999;
+    border-radius: 0px;
+}
+
+#pikk{
+    width: 220px;
+    margin-right: 0px;
 }
 
 #map {
-    margin-left: 300px;
-    height: 250px;
+    margin-left: 100px;
+    height: 280px;
     width: 500px;
+    float: left;
+}
+
+.parempoolne{
+    overflow: auto;
+}
+
+.ikoonid{
+    padding-left: 50px;
+    overflow: auto;
+    float: left;
+    width: 50px;
+}
+
+#keskmine_pilt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info{
+    float: left;
+    margin-left: 50px;
+    width: 500px;
+}
+
+#keskmine_tekst{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.all{
+    margin-top: 100px;
+}
+
+#fb{
+    padding-bottom: 20px;
+}
+
+#ig{
+    margin-left: 60px;
+    margin-top: 40px;
 }

@@ -7,15 +7,18 @@
 }
 
 .esimene{
-    padding-left: 80px;
+    margin-left: 139px;
+    margin-right: 120px;
     font-size: large;
     overflow: auto;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px rgb(241, 238, 238);
 }
 
 .pilt{
     display: flex;
     float: left;
-    margin-left: 5%;
+    
 }
 
 .tekst{
@@ -23,12 +26,16 @@
     padding-left: 50px;
     padding-top: 40px;
     width: 400px;
+    background-color: aliceblue;
 }
 
 .teine{
-    padding-left: 80px;
+    margin-left: 139px;
+    margin-right: 120px;
     font-size: large;
     overflow: auto;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px rgb(241, 238, 238);
 }
 
 .tekst_2{
@@ -36,7 +43,6 @@
     padding-top: 40px;
     float: left;
     width: 400px;
-    margin-left: 5%;
 }
 
 .pilt_2{
@@ -46,7 +52,7 @@
 
 .hinnad{
     background-color: rgb(160, 217, 250);
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-left: 50px;
     margin-right: 50px;
 }
