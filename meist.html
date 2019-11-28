@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/meist.css">
-        <link rel="stylesheet" href="css/ühine.css">
         <!-- icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="javascript/meist.js"></script>
@@ -19,9 +18,9 @@
         <header>
             <!-- icons from fontawesome.com -->
             <div class ="navbar">
-                <a href="#andmed"><i class="fa fa-map-marker"></i> Veeriku spordikeskus, Näituse 33 II korrus</a>
-                <a href="#andmed"><i class="fa fa-fw fa-phone"></i> 56645618</a>
-                <a href="#andmed"><i class="fa fa-fw fa-envelope"></i> info@fysiocentrum.com</a>
+                <a href="#contacts"><i class="fa fa-map-marker"></i> Veeriku spordikeskus, Näituse 33 II korrus</a>
+                <a href="#contacts"><i class="fa fa-fw fa-phone"></i> 56645618</a>
+                <a href="#contacts"><i class="fa fa-fw fa-envelope"></i> info@fysiocentrum.com</a>
                 <a><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
                 <a><i class="fa fa-instagram" style="font-size:24px"></i></a>
             </div>
@@ -40,80 +39,82 @@
             </nav>
         </header>
 
-        <h1 class="pealkiri">MEIST</h1>
+        <h1 class="headline">MEIST</h1>
 
-        <div class="sisu">
+        <div class="main">
             
-            <div class="tekst">
+            <div class="text">
                 <p>Oleme Tartu Ülikoolist võrsunud teadusmahukas ettevõte, kus tegutsevad spordi tausta ja hingega füsioterapeudid ja teised spetsialistid.</p>
                 <p>Meie eesmärk on tuua inimeste taastumisse ja treeningutesse teaduspõhine lähenemine, et aidata inimestel jõuda parima terviseni ja seeläbi saavutada oma seatud eesmärgid.</p>
                 <p>Pakume füsioteraapia, massaaži, nõelravi, teipimist ja sportlaste võimekuse testimist. Meie juures toimuvad ka rühmatreeningud füsioterapeutide juhendamisel ehk füsiotreeningud.</p>
             </div>
 
-            <img src="./pildid/meist.jpg" alt="fysiocentrum" id="pilt">
+            <img src="./pildid/meist.jpg" alt="fysiocentrum" id="picture">
 
         </div>
 
-        <h1 class="pealkiri">MEIE SPETSIALISTID</h1>
+        <h1 class="headline">MEIE SPETSIALISTID</h1>
         
-        <div id="spetsialistid">
-            <div class="inimene">
-                <p class="inim_nimi">Mati Arend</p>
-                <img src="./pildid/arend.jpg" alt="Mati Arend" class="inim_pilt">
+        <div id="people">
+            <div class="person">
+                <p class="name">Mati Arend</p>
+                <img src="./pildid/arend.jpg" alt="Mati Arend" class="pic">
             </div>
-            <div class="inimene">
-                <p class="inim_nimi">Liisa Veerla</p>
-                <img src="./pildid/veerla.jpg" alt="Liisa Veerla" class="inim_pilt">
+            <div class="person">
+                <p class="name">Liisa Veerla</p>
+                <img src="./pildid/veerla.jpg" alt="Liisa Veerla" class="pic">
             </div>
-            <div class="inimene">
-                <p class="inim_nimi">Rauno Kuusemets</p>
-                <img src="./pildid/kuusemets.png" alt="Rauno Kuusemets" class="inim_pilt">
+            <div class="person">
+                <p class="name">Rauno Kuusemets</p>
+                <img src="./pildid/kuusemets.png" alt="Rauno Kuusemets" class="pic">
             </div>
-            <div class="inimene">
-                <p class="inim_nimi">Aira Ferschel</p>
-                <img src="./pildid/ferschel.jpg" alt="Aira Ferschel" class="inim_pilt">
+            <div class="person">
+                <p class="name">Aira Ferschel</p>
+                <img src="./pildid/ferschel.jpg" alt="Aira Ferschel" class="pic">
             </div>
-            <div class="inimene">
-                <p class="inim_nimi">Margus Parts</p>
-                <img src="./pildid/parts.jpg" alt="Margus Parts" class="inim_pilt">
+            <div class="person">
+                <p class="name">Margus Parts</p>
+                <img src="./pildid/parts.jpg" alt="Margus Parts" class="pic">
             </div>
-            <div class="inimene">
-                <p class="inim_nimi">Ott Meerits</p>
-                <img src="./pildid/meerits.jpg" alt="Ott Meerits" class="inim_pilt">
+            <div class="person">
+                <p class="name">Ott Meerits</p>
+                <img src="./pildid/meerits.jpg" alt="Ott Meerits" class="pic">
             </div>
-            <div class="inimene" id="pikk">
-                <p class="inim_nimi">Maarja Kalev</p>
-                <img src="./pildid/kalev.jpg" alt="Maarja Kalev"  class="inim_pilt">
+            <div class="person" id="long_name">
+                <p class="name">Maarja Kalev</p>
+                <img src="./pildid/kalev.jpg" alt="Maarja Kalev"  class="pic">
             </div>
         </div>
 
-        <h1 class="pealkiri">KONTAKTID</h1>
+        <h1 class="headline">KONTAKTID</h1>
 
-        <div id="andmed">
+        <div id="contacts">
             <div id="map"></div>
-            <div class="parempoolne">
-                <div class="üleval">
-                    <div class="ikoonid">
-                            <img src="./pildid/asukoht.png" alt="asukoht" width="50" height="50" id="ülemine_pilt">
-                            <img src="./pildid/telefon.png" alt="telefon" width="50" height="50" id="keskmine_pilt">
-                            <img src="./pildid/mail.jpg" alt="e-mail" width="50" height="50">
+            <div class="right">
+                <div class="up">
+                    <div class="icons">
+                        <img src="./pildid/asukoht.png" alt="place" width="50" height="50" id="upper_pic">
+                        <img src="./pildid/telefon.png" alt="mobile" width="50" height="50" id="middle_pic">
+                        <img src="./pildid/mail.jpg" alt="e-mail" width="50" height="50">
                     </div>
 
                     <div class="info">
                         <p>
                             Veeriku spordikeskus, Näituse 33 II korrus (lahtiolek kokkuleppel)
                         </p>
-                        <p id="keskmine_tekst">
+                        <p id="middle_text">
                             +372 5664 5618 Kui me ei saa vastata, tegeleme klientidega. Võtame teiega esimesel võimalusel ühendust.
                         </p>
                         <p>info@fysiocentrum.ee</p>
                     </div>
                 </div>
-                <div class="all">
+                <div class="bottom">
                     <a href="https://www.facebook.com/FysioCentrum/" target="_blank">
-                        <img src="./pildid/fb.png" alt="facebook" id="fb"></a>
+                        <img src="./pildid/fb.png" alt="facebook" id="fb">
+                    </a>
                     <a href="https://www.instagram.com/fysio_centrum/" target="_blank">
-                        <img src="./pildid/ig.png" alt="instagram" id="ig"></a>
+                        <img src="./pildid/ig.png" alt="instagram" id="ig">
+                    </a>
                 </div>
             </div>
         </div>

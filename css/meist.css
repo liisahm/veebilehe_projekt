@@ -1,28 +1,11 @@
-@font-face {
-	font-family: Qwerty Ability;
-	src: url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-}
-
-p{
-    font-family: 'Pacifico', cursive;
-    font-size: large;
-}
-
-
-.link {
-    color: black;
-    padding-right: 30px;
-    text-decoration: none
-}
-
-.sisu{
+.main{
     padding-top:  20px;
     padding-left: 60px;
     padding-right: 100px;
     overflow: auto;
 }
 
-.tekst{
+.text{
     font-family: 'Pacifico', cursive;
     font-size: large;
     float: left;
@@ -32,40 +15,35 @@ p{
     padding-top: 20px;
 }
 
-#pilt{
+#picture{
     float: right;
     margin-bottom: 30px;
     margin-right: 20px;
 }
 
-#andmed{
-    overflow: auto;
-    margin-top: 80px;
-}
-
-#spetsialistid{
+#people{
     overflow: auto;
     margin-left: 70px;
     margin-bottom: 50px;
 }
 
-.inimene{
+.person{
     float: left;
     width: 160px;
 }
 
-.inim_nimi{
+.name{
     margin-bottom: 20px;
 }
 
-.inim_pilt{
+.pic{
     width: 80px;
     height: 80px;
     margin-left: 20px;
     border-radius: 25px;
 }
 
-.inim_pilt:hover{
+.pic:hover{
     position:relative;
     top:-25px;
     left:-35px;
@@ -76,9 +54,14 @@ p{
     border-radius: 0px;
 }
 
-#pikk{
+#long_name{
     width: 220px;
     margin-right: 0px;
+}
+
+#contacts{
+    overflow: auto;
+    margin-top: 80px;
 }
 
 #map {
@@ -88,22 +71,22 @@ p{
     float: left;
 }
 
-.parempoolne{
+.right{
     overflow: auto;
 }
 
-.ikoonid{
+.icons{
     padding-left: 50px;
     overflow: auto;
     float: left;
     width: 50px;
 }
 
-#ülemine_pilt{
+#upper_pic{
     border-radius: 25px;
 }
 
-#keskmine_pilt{
+#middle_pic{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 25px;
@@ -115,19 +98,19 @@ p{
     width: 500px;
 }
 
-#keskmine_tekst{
+#middle_text{
     margin-top: 20px;
     margin-bottom: 35px;
 }
 
-.all{
+.bottom{
     margin-top: 100px;
 }
 
 #fb{
     padding-bottom: 10px;
     padding-left: 10px;
-    width: 150;
+    width: 150px;
     height: 50px;
 }
 
