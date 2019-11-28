@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
+	font-family: Pacifico;
 }
 
 header {
@@ -34,7 +34,7 @@ ul li a{
 
 ul li a:hover{
 	background-color: #000;
-	color: #ffffff
+	color: #ffffff;
 }	
 
 ul li.active a{
@@ -71,18 +71,6 @@ ul li.active a{
 	margin:50px;
 }
 
-.title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.title h1{
-	color: #fff;
-	font-size: 50px;
-	line-height: normal;
-}
 
 .button {
 	position: absolute;
@@ -102,7 +90,7 @@ ul li.active a{
 	transition: 0.6s ease;
 }
 
-.btn:hover{
+.btn.hover{
 	background-color: #ffffff;
 	color: #000
 }
@@ -143,16 +131,26 @@ footer {
 	font-size: 30px;
 }
 
-@font-face {
-	font-family: Qwerty Ability;
+/*	font-family: Qwerty Ability;
 	src: url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 }
+*/
 
-p{
-    font-family: 'Pacifico', cursive;
-    font-size: large;
+/*esilehe title*/
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
+.title h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: normal;
+}
+
+/*alamlehtede title*/
 .headline{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -165,9 +163,32 @@ p{
     border-radius: 25px;
 }
 
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+
+}
+
+
+p{
+    /*font-family: 'Pacifico', cursive;*/
+    font-size: large;
+}
+
+
 body{
     background-image: url("../pildid/taust.jpg");
 }
+
+
+
 
 /*Making scrollbar colourful; Code from https://www.w3schools.com/ */
 /* width */
