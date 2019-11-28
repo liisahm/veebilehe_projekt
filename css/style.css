@@ -204,11 +204,11 @@ body{
     
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(85, 24, 197); 
+	background-image: url("../pildid/pealkiri.jpg");
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: blue; 
+    background: rgb(82, 194, 194); 
 }

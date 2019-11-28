@@ -1,6 +1,6 @@
 .upper{
-    margin-left: 139px;
-    margin-right: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: large;
     overflow: auto;
     background-color: aliceblue;
@@ -16,13 +16,13 @@
     float: left;
     padding-left: 50px;
     padding-top: 40px;
-    width: 400px;
+    width: 40%;
     background-color: aliceblue;
 }
 
 .lower{
-    margin-left: 139px;
-    margin-right: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: large;
     overflow: auto;
     background-color: aliceblue;
@@ -33,7 +33,7 @@
     padding-left: 50px;
     padding-top: 40px;
     float: left;
-    width: 400px;
+    width: 40%;
 }
 
 .picture_2{
@@ -64,7 +64,7 @@
 }
 
 .box{
-    background-color: beige;
+    background-color: rgb(82, 194, 194);
     width: 200px;
     border-radius: 25px;
 }
@@ -98,22 +98,22 @@
 #bottom_prices{
     overflow: auto;
     padding-bottom: 20px;
-    padding-right: 300px;
 }
 
 #left{
     float: left;
+    margin-left: 30%;
 }
 
 #right{
-    float: left;
+    margin-left: 10%;
 }
 
 .subheading_1{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 30px;
-    margin-left: 370px;
+    text-align: center;
     font-size: xx-large;
 }
 
@@ -121,22 +121,22 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 30px;
-    margin-left: 100px;
+    text-align: center;
+    padding-right: 25%;
     font-size: xx-large;
 }
 
 .box_2{
-    background-color: beige;
+    background-color: rgb(82, 194, 194);
     width: 200px;
-    margin-left: 350px;
     margin-bottom: 30px;
     border-radius: 25px;
 }
 
 .box_3{
-    background-color: beige;
+    background-color: rgb(82, 194, 194);
     width: 200px;
-    margin-left: 80px;
+    margin-left: 50%;
     margin-bottom: 30px;
     border-radius: 25px;
 }
