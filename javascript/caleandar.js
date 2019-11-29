@@ -6,7 +6,7 @@
 var Calendar = function(model, options, date){
   // Default Values
   this.Options = {
-    Color: '',
+    Color: 'blue',
     LinkColor: '',
     NavShow: true,
     NavVertical: false,
