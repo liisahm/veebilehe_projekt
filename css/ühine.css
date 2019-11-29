@@ -88,7 +88,7 @@ h1{
 }
 
 h2{
-
+	font-size: 25px;
 }
 
 h3{
@@ -97,7 +97,11 @@ h3{
 
 
 p{
-    font-size: large;
+    font-size: 17px;
+}
+
+a{
+	color: #ff606b;	
 }
 
 
@@ -112,7 +116,6 @@ section{
 	padding-bottom: 2%;
 	margin-left: 10%;
     margin-right: 10%;
-    font-size: large;
     overflow: auto;
     background-color: aliceblue;
     box-shadow: 10px 10px 5px rgb(241, 238, 238);

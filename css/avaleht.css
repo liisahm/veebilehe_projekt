@@ -1,3 +1,25 @@
+/*Esilehe pealkiri*/
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: normal;
+}
+
+/*Avalehe foto*/
+article {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pildid/esileht.jpg);
+	height: 85vh;
+	background-size: cover;
+	background-position: center;
+}
+
 /*Button*/
 .button {
 	position: absolute;
@@ -20,28 +42,6 @@
 .btn:hover{
 	background-color: #ffffff;
 	color: #000
-}
-
-/*Esilehe pealkiri*/
-.title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.title h1{
-	color: #fff;
-	font-size: 50px;
-	line-height: normal;
-}
-
-/*Avalehe foto*/
-article {
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pildid/esileht.jpg);
-	height: 85vh;
-	background-size: cover;
-	background-position: center;
 }
 
 /*Kontakti vorm*/
@@ -118,10 +118,6 @@ input[type=submit]:hover {
   }
 }
 
-
-.small_image{
-	width:10px;
-}
 
 /*Treeningute lühitutvustus*/ 
 .grid-container {
