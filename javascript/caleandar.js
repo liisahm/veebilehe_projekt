@@ -6,7 +6,7 @@
 var Calendar = function(model, options, date){
   // Default Values
   this.Options = {
-    Color: 'blue',
+    Color: 'navy',
     LinkColor: '',
     NavShow: true,
     NavVertical: false,
@@ -155,7 +155,7 @@ function createCalendar(calendar, element, adjuster){
   function AddLabels(){
     var labels = document.createElement('ul');
     labels.className = 'cld-labels';
-    var labelsList = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    var labelsList = [];
     for(var i = 0; i < labelsList.length; i++){
       var label = document.createElement('li');
       label.className += "cld-label";
