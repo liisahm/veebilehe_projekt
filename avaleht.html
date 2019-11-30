@@ -9,7 +9,6 @@
 		<link rel="stylesheet" href="css/avaleht.css">
 		<!-- icon library -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script src="javascript/avaleht.js"></script>
 	</head>
 
 	<body>
@@ -96,17 +95,16 @@
 		<section>
 			<h2>Võta ühendust</h2>
 			<div class="container">
-  				<form id="Form" action="/action_page.php">
+  				<form action="/action_page.php">
     				<label for="fname">Nimi</label>
     				<input type="text" id="fname" name="firstname" placeholder="Nimi..">
     				<label for="lname">E-post</label>
     				<input type="text" id="lname" name="lastname" placeholder="E-post..">
     				<label for="subject">Sõnum</label>
-					<textarea id="subject" name="subject" style="height:100px"></textarea>
-					<button type="button" onclick="datasend()">Saada</button>
-					<p id="demo"></p>
-				</form>
+    				<textarea id="subject" name="subject" style="height:100px"></textarea>
+    				<input type="submit" value="Saada">
 			</div>
+			<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 		</section>
 
