@@ -53,19 +53,19 @@
 			<!-- Full-width images with number and caption text -->
 			<div class="mySlides fade">
 				<!--div class="numbertext">1 / 3</div-->
-			    <img src="pildid/esileht.jpg" style="width:100%">
+			    <img src="pildid/fysio.jpg" style="width:100%">
 			    <div class="text">Füsioteraapia</div>
 			</div>
 
 			<div class="mySlides fade">
 				<!--div class="numbertext">2 / 3</div-->
-				<img src="pildid/esileht1.jpg" style="width:100%">
+				<img src="pildid/ring_treening.jpg" style="width:100%">
 			    <div class="text">Personaaltreeningud</div>
 			</div>
 
 			<div class="mySlides fade">
 			    <!--div class="numbertext">3 / 3</div-->
-			    <img src="pildid/kerelihased.jpg" style="width:100%">
+			    <img src="pildid/kangitreening.jpg" style="width:100%">
 			    <div class="text">Rühmatreeningud</div>
 			</div>
 
@@ -150,7 +150,7 @@
 		<section>
 			<h2>Võta ühendust</h2>
 			<div class="container">
-  				<form action="/action_page.php">
+  				<form id="feedback_form">
     				<label for="fname">Nimi</label>
     				<input type="text" id="fname" name="firstname" placeholder="Nimi..">
     				<label for="lname">E-post</label>
@@ -158,10 +158,19 @@
     				<label for="subject">Sõnum</label>
     				<textarea id="subject" name="subject" style="height:100px"></textarea>
     				<input type="submit" value="Saada">
-			</div>
-			<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
+				</form>
+			<script>
+				document.getElementById("feedback_form").addEventListener("submit", function(e) {
+           		e.preventDefault();
+            	document.getElementById("form_thanks").innerHTML = "Täname!";
+        		});
+        	</script>
+    		</div>
+    		<p id="form_thanks"></p>
 		</section>
+
+
+
 
 	<footer>
 	  	<!-- icons from fontawesome.com -->
