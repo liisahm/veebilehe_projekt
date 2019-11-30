@@ -9,6 +9,54 @@ header {
 	line-height: 20px;
 }
 
+/*pealkirjade stiilid*/
+h1{
+	font-size: 30px;
+	line-height: normal;
+}
+
+h2{
+	font-size: 25px;
+}
+
+h3{
+	font-size:17px
+}
+
+p{
+    font-size: 17px;
+}
+
+a{
+	color: #ff606b;	
+}
+
+
+body{
+    background-image: url("../pildid/taust.jpg");
+}
+
+section{
+	padding-right: 7%;
+	padding-left: 7%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+}
+
+footer{
+	background-color: black;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	line-height: 20px;
+}
+
 /*navigatsioon*/
 ul {
 	float: right;
@@ -82,68 +130,9 @@ ul li.active a{
     border-radius: 25px;
 }
 
-/*pealkirja stiil*/
-h1{
-	font-size: 30px;
-	line-height: normal;
-}
-
-h2{
-	font-size: 25px;
-}
-
-h3{
-	font-size:17px
-}
-
-
-p{
-    font-size: 17px;
-}
-
-a{
-	color: #ff606b;	
-}
-
-
-body{
-    background-image: url("../pildid/taust.jpg");
-}
-
-section{
-	padding-right: 7%;
-	padding-left: 7%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	margin-left: 10%;
-    margin-right: 10%;
-    overflow: auto;
-    /*background-color: aliceblue;*/
-    /*box-shadow: 10px 10px 5px rgb(241, 238, 238);*/
-}
-
-.center {
-  margin: auto;
-  width: 100%;
-  padding: 10px;
-  border:3px;
-  display:block;
-}
-
-footer{
-	background-color: black;
-	margin-top: 20px;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	width: 100%;
-	text-align: center;
-	color: white;
-	line-height: 20px;
-}
 .back{
    	overflow: auto;
-    	background-color: aliceblue;
-
+    background-color: aliceblue;
 }
 
 /*scrollbar*/
