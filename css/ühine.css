@@ -1,4 +1,4 @@
-*{
+﻿*{
 	margin: 0;
 	font-family: Pacifico;
 	box-sizing: border-box;
@@ -132,6 +132,11 @@ footer{
 	text-align: center;
 	color: white;
 	line-height: 20px;
+}
+.back{
+   	overflow: auto;
+    	background-color: aliceblue;
+
 }
 
 

@@ -112,14 +112,8 @@
 /* code from https://www.cssscript.com/create-simple-event-calendar-javascript-caleandar-js/ */
 
 
-.back{
-    	margin-left: 20%;
-    	margin-right: 20%;
-   	font-size: large;
-   	overflow: auto;
-    	background-color: aliceblue;
-    	box-shadow: 10px 10px 5px rgb(241, 238, 238);
-}
+
+
 
 .text_1{
 	text-align: center;
@@ -130,9 +124,4 @@
  	margin-right: auto;
 	width: 55%;
 	padding: 20px 0;
-}
-.calender_head{
-	margin-left: 65px;
-	padding: 10px;
-	color:navy
 }
