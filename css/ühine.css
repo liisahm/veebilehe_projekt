@@ -122,6 +122,14 @@ section{
     /*box-shadow: 10px 10px 5px rgb(241, 238, 238);*/
 }
 
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border:3px;
+  display:block;
+}
+
 footer{
 	background-color: black;
 	margin-top: 20px;
