@@ -3,11 +3,12 @@
 .picture{
     display: flex;
     float: left;
+    padding-left: 50px;
 }
 
 .sidetext{
     float: left;
-    padding-left: 50px;
+    padding-left: 160px;
     padding-top: 40px;
     width: 40%;
     background-color: aliceblue;
@@ -22,7 +23,7 @@
 
 .picture_2{
     float: left;
-    padding-left: 50px;
+    padding-left: 160px;
 }
 
 #cap{
