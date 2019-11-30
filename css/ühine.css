@@ -38,7 +38,7 @@ ul li a:hover{
 ul li.active a{
 	background-color: lightgrey;
 }
-
+/*esilehe logo*/
 .logo img{
 	float:left;
 	width: 270px;
@@ -46,12 +46,12 @@ ul li.active a{
 	margin: 30px;
 }
 
+/*lehe ülaservas olev kontaktiriba*/
 .navbar {
 	width: 100%;
 	text-align: center;
   	overflow: hidden;
 	background-color: black;
-	/*position: fixed;*/
 	top: 0;
 }
 
@@ -69,7 +69,7 @@ ul li.active a{
 	margin:50px;
 }
 
-/*alamlehtede title*/
+/*alamlehtede pealkiri*/
 .headline{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -82,6 +82,7 @@ ul li.active a{
     border-radius: 25px;
 }
 
+/*pealkirja stiil*/
 h1{
 	font-size: 30px;
 	line-height: normal;
@@ -116,11 +117,11 @@ section{
 	margin-left: 10%;
     margin-right: 10%;
     overflow: auto;
-    background-color: aliceblue;
-    box-shadow: 10px 10px 5px rgb(241, 238, 238);
+    /*background-color: aliceblue;*/
+    /*box-shadow: 10px 10px 5px rgb(241, 238, 238);*/
 }
 
-footer {
+footer{
 	background-color: black;
 	margin-top: 20px;
 	padding-top: 20px;
@@ -131,6 +132,7 @@ footer {
 	line-height: 20px;
 }
 
+/*scrollbar*/
 /*Making scrollbar colourful; Code from https://www.w3schools.com/ */
 /* width */
 ::-webkit-scrollbar {
