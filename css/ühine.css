@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	font-family: Pacifico;
+	box-sizing: border-box;
 }
 
 header {
@@ -132,6 +133,9 @@ footer{
 	color: white;
 	line-height: 20px;
 }
+
+
+
 
 /*scrollbar*/
 /*Making scrollbar colourful; Code from https://www.w3schools.com/ */
