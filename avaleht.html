@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/avaleht.css">
 		<!-- icon library -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="javascript/avaleht.js"></script>
 	</head>
 
 	<body>
@@ -167,6 +168,20 @@
         	</script>
     		</div>
     		<p id="form_thanks"></p>
+
+			<div class="container">
+				<form id="Form" action="/action_page.php">
+					<label for="fname">Nimi</label>
+					<input type="text" id="fname" name="firstname" placeholder="Nimi..">
+					<label for="lname">E-post</label>
+					<input type="text" id="lname" name="lastname" placeholder="E-post..">
+					<label for="subject">Sõnum</label>
+					<textarea id="subject" name="subject" style="height:100px"></textarea>
+					<button type="button" onclick="datasend()">Saada</button>
+					<p id="demo"></p>
+				</form>
+			</div>
+
 		</section>
 
 
