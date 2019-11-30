@@ -230,3 +230,9 @@ input[type=submit]:hover {
 	font-size: 30px;
 }
 
+#sendbutton{
+	background-image: url("../pildid/pealkiri.jpg");
+	width: 60px;
+	height: 30px;
+	border-radius: 25px;
+}
