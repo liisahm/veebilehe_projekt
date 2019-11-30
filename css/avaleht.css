@@ -132,6 +132,11 @@ article {
 	color: #000
 }
 
+.video{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
 input[type=text], select, textarea {
  	width: 100%;
 	padding: 12px;
