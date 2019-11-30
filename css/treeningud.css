@@ -124,3 +124,9 @@
 	width: 55%;
 	padding: 20px 0;
 }
+.calender_head{
+	position :relative;	
+	left: 4.25%;
+	color: navy;
+	padding: 15px;
+}

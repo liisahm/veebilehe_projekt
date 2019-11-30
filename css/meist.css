@@ -23,7 +23,6 @@
 }
 
 #people{
-    position: center;
     overflow: auto;
     display: table;
     margin-left: 5%;
