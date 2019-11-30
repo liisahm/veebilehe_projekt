@@ -63,7 +63,6 @@
 
 #contacts{
     overflow: auto;
-    margin-top: 80px;
 }
 
 #map {
@@ -75,23 +74,6 @@
 
 .right{
     overflow: auto;
-}
-
-.icons{
-    padding-left: 50px;
-    overflow: auto;
-    float: left;
-    width: 50px;
-}
-
-#upper_pic{
-    border-radius: 25px;
-}
-
-#middle_pic{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 25px;
 }
 
 .info{

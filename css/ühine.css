@@ -74,11 +74,10 @@ ul li.active a{
 .headline{
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    background-color: beige;
     background-image: url("../pildid/pealkiri.jpg");
     border-radius: 25px;
 }
