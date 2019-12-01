@@ -19,7 +19,7 @@ Karl Soosalu, Mikk Viigand, Liisa Haabpiht
 * Karl - Teenused ja meist vaheleht
 * Mikk - Treeningud vaheleht
 * Liisa - Esileht, menüü, project management  
-Tegelikkuses tegelesid kõik tiimi liikmed ka teiste vaelehtede osadega.
+Tegelikkuses tegelesid kõik tiimi liikmed ka teiste vahelehtede osadega.
  
 ## Millised raskused esinesid?
 Alguses oli natukene keeruline leida huvitavat ja sobivat teemat, millest veebilehe tegemine oleks kõigile tiimi liikmetele põnevust pakkunud. Kui teema sai valitud hakkasid kõik oma osa tegema, kuid nende osade kokku sobitamine osutus lõpus oodatust keerulisemaks, kuna mõni osa oli kajastatud mitmes kohas ning erinevad meeskonna liikmed kujutasid lõplikku veebilehte ka veidi erinevalt ette.
