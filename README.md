@@ -30,3 +30,5 @@ Efektiivsemalt saaks kasutada ka GitHubi, kuna juhtusid mõned korrad, kui mitme
 
 ## Mida õppisite?
 Õppisime, et edaspidi oleks suuremate projektide korral mõistlik saada kohe alguses kokku ning peamistes punktides kokku leppida, et ei peaks koodi mitu korda ümber kirjutama ning et meeskonna liikmetel tekiks valmivast lehest ühine arusaam. Kindlasti õppisime ka seda, et ühiselt meeskonnatööna on erinevaid vigu kergem lahendada, kui üksi. Meeskonnatööna probleemide lahendamine oli kiirem ja efektiivsem, kui üksi vigu lahendada püüdes. Heaks õppetunniks oli ka see, et tihti võib pealtnäha kerge funktsionaalsuse ehitamine võtta oodatust kauem aega. Seega tasub projekti(de)a varakult alustada ning jätta ka nö varuaaega, et väikeste erroritega tegeleda. Omandasime põhilised veebilehe loomise oskused kasutades HTML-i, CSS-i ja Javascripti. Lisaks saime head kogemused tänu git-i ja githubi kasutamisele. 
+
+![Teamwork](http://www.quoteambition.com/wp-content/uploads/2017/04/teamwork-quotes-champion.png)
